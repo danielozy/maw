@@ -1,0 +1,33 @@
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(250, 3, 45);
+    color: rgb(5, 5, 5);
+  }
+  
+  .topnav a.active {
+    background-color: #0de998;
+    color: white;
+  }
+
+  .hero-image {
+    background-image: url("image/background.jpg");
+    height: 250%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
